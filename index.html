@@ -201,5 +201,20 @@ ok 2&gt;
               var pageTracker = _gat._getTracker("UA-22492701-4");
             pageTracker._trackPageview(); } catch(err) {}
   </script>
-  <style>#forkongithub a{background:lime;color:black;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:orange;color:black;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:blue;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:absolute;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/">Sponsored by GitHub</a></span>
+  <style>
+    #forkongithub a, #cloudant a{background:lime;color:black;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}
+    #cloudant a{background:white;color:#999;border:none}
+    #forkongithub a:hover{background:orange;color:black;}
+    #forkongithub a::before, #forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:blue;}
+    #forkongithub a::after, #cloudant a::after{bottom:1px;top:auto;}
+    @media screen and (min-width:800px){
+      #forkongithub, #cloudant{position:absolute;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;}
+      #cloudant{width:300px;height:300px}
+      #forkongithub a, #cloudant a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}
+      #cloudant a{width:350px;top:80px;right:-93px;line-height:0}
+      #cloudant a img{margin:5px}
+    }
+  </style>
+  <span id="forkongithub"><a href="https://github.com/">Sponsored by GitHub</a></span>
+  <span id="cloudant"><a href="http://cloudant.com/"><img src="images/cloudant.png" alt="Cloudant" /></a></span>
 </body> </html>
